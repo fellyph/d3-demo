@@ -58,94 +58,95 @@ d3.json<TaxonomyNode>("taxonomy_v2.json").then((data) => {
   // Prune the tree to keep only the path to the target category and its siblings
   const prunedRoot = pruneTreeToCategoryWithSiblings(root, categoryName);
 
-  if (!prunedRoot) {
-    console.error(`Category "${categoryName}" not found in the data.`);
-    return;
-  }
+  if (prunedRoot && prunedRoot.data !== undefined) {
+    // Compute the new tree layout
+    const treeData = treemap(prunedRoot);
 
-  // Compute the new tree layout
-  const treeData = treemap(prunedRoot);
+    // Get the nodes and links from the tree data
+    const nodes = treeData.descendants();
+    const links = treeData.descendants().slice(1);
 
-  // Get the nodes and links from the tree data
-  const nodes = treeData.descendants();
-  const links = treeData.descendants().slice(1);
-
-  // Normalize for fixed-depth
-  nodes.forEach((d) => {
-    d.y = d.depth * 180; // Adjust horizontal spacing
-  });
-
-  // ****************** Nodes section ***************************
-
-  let i = 0;
-
-  const node = svg
-    .selectAll("g.node")
-    .data(nodes, (d: any) => d.id || (d.id = ++i));
-
-  // Enter new nodes at the parent's previous position
-  const nodeEnter = node
-    .enter()
-    .append("g")
-    .attr("class", "node")
-    .attr(
-      "transform",
-      (d: d3.HierarchyPointNode<TaxonomyNode>) => `translate(${d.y},${d.x})`
-    );
-
-  // Add Circle for the nodes
-  nodeEnter
-    .append("circle")
-    .attr("class", "node")
-    .attr("r", 10)
-    .style("fill", "#fff");
-
-  // Add labels for the nodes
-  nodeEnter
-    .append("text")
-    .attr("dy", ".35em")
-    .attr("x", (d: d3.HierarchyPointNode<TaxonomyNode>) =>
-      d.children ? -13 : 13
-    )
-    .attr("text-anchor", (d: d3.HierarchyPointNode<TaxonomyNode>) =>
-      d.children ? "end" : "start"
-    )
-    .text((d: d3.HierarchyPointNode<TaxonomyNode>) => d.data.name);
-
-  // ****************** Links section ***************************
-
-  const link = svg.selectAll("path.link").data(links, (d: any) => d.id);
-
-  // Enter new links at the parent's previous position
-  const linkEnter = link
-    .enter()
-    .insert("path", "g")
-    .attr("class", "link")
-    .attr("d", (d: d3.HierarchyPointLink<TaxonomyNode>) => {
-      const o = { x: d.x, y: d.y };
-      return diagonal(o, o);
+    // Normalize for fixed-depth
+    nodes.forEach((d) => {
+      d.y = d.depth * 180; // Adjust horizontal spacing
     });
 
-  // Update the links
-  const linkUpdate = linkEnter.merge(link as any);
+    // ****************** Nodes section ***************************
 
-  // Transition to the new link positions
-  linkUpdate
-    .transition()
-    .duration(500)
-    .attr("d", (d: d3.HierarchyPointLink<TaxonomyNode>) =>
-      diagonal(d, d.parent!)
+    let i = 0;
+
+    const node = svg
+      .selectAll("g.node")
+      .data(nodes, (d: any) => d.id || (d.id = ++i));
+
+    // Enter new nodes at the parent's previous position
+    const nodeEnter = node
+      .enter()
+      .append("g")
+      .attr("class", "node")
+      .attr(
+        "transform",
+        (d: d3.HierarchyPointNode<TaxonomyNode>) => `translate(${d.y},${d.x})`
+      );
+
+    // Add Circle for the nodes
+    nodeEnter
+      .append("circle")
+      .attr("class", "node")
+      .attr("r", 10)
+      .style("fill", "#fff");
+
+    // Add labels for the nodes
+    nodeEnter
+      .append("text")
+      .attr("dy", ".35em")
+      .attr("x", (d: d3.HierarchyPointNode<TaxonomyNode>) =>
+        d.children ? -13 : 13
+      )
+      .attr("text-anchor", (d: d3.HierarchyPointNode<TaxonomyNode>) =>
+        d.children ? "end" : "start"
+      )
+      .text((d: d3.HierarchyPointNode<TaxonomyNode>) => d.data.name);
+
+    // ****************** Links section ***************************
+
+    const link = svg.selectAll("path.link").data(links, (d: any) => d.id);
+
+    // Enter new links at the parent's previous position
+    const linkEnter = link
+      .enter()
+      .insert("path", "g")
+      .attr("class", "link")
+      .attr("d", (d: d3.HierarchyPointNode<TaxonomyNode>) => {
+        return diagonal(d, d.parent || d);
+      });
+
+    // Update the links
+    const linkUpdate = linkEnter.merge(link as any);
+
+    // Transition to the new link positions
+    linkUpdate
+      .transition()
+      .duration(500)
+      .attr("d", (d: d3.HierarchyPointNode<TaxonomyNode>) =>
+        diagonal(d, d.parent!)
+      );
+
+    // Creates a curved path from parent to the child nodes
+    function diagonal(
+      s: { x: number; y: number },
+      d: { x: number; y: number }
+    ): string {
+      const path = `M ${s.y} ${s.x}
+                            C ${(s.y + d.y) / 2} ${s.x},
+                              ${(s.y + d.y) / 2} ${d.x},
+                              ${d.y} ${d.x}`;
+      return path;
+    }
+  } else {
+    // Handle the case when prunedRoot is undefined
+    throw new Error(
+      `Category "${categoryName}" not found in the taxonomy tree.`
     );
-
-  // Creates a curved path from parent to the child nodes
-  function diagonal(
-    s: { x: number; y: number },
-    d: { x: number; y: number }
-  ): string {
-    const path = `M ${s.y} ${s.x}
-                      C ${(s.y + d.y) / 2} ${s.x},
-                        ${(s.y + d.y) / 2} ${d.x},
-                        ${d.y} ${d.x}`;
-    return path;
   }
 });
