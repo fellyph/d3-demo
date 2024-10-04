@@ -51,7 +51,7 @@ function createTaxonomyTree(data: TaxonomyNode): void {
   const margin = { top: 20, right: 90, bottom: 30, left: 90 };
 
   const svg = d3
-    .select("#tree-container")
+    .select("#app")
     .append("svg")
     .attr("width", width)
     .attr("height", height)
@@ -81,8 +81,8 @@ function createTaxonomyTree(data: TaxonomyNode): void {
           d3.HierarchyLink<TaxonomyNode>,
           d3.HierarchyPointLink<TaxonomyNode>
         >()
-        .x((d) => d.y)
-        .y((d) => d.x)
+        .x((d) => d.source.y)
+        .y((d) => d.source.x)
     );
 
   // Add nodes
