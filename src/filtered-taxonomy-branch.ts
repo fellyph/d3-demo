@@ -12,7 +12,7 @@ const height = 400 - margin.top - margin.bottom;
 
 // Append the SVG object to the body of the page
 const svg = d3
-  .select("#tree-container")
+  .select("#app")
   .append("svg")
   .attr("width", width + margin.right + margin.left)
   .attr("height", height + margin.top + margin.bottom)
