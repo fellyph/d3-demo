@@ -1,0 +1,830 @@
+{
+  "name": "Root",
+  "children": [
+    {
+      "name": "Arts & Entertainment",
+      "children": [
+        { "name": "Celebrities & Entertainment News" },
+        { "name": "Comics & Animation" },
+        {
+          "name": "Events & Listings",
+          "children": [
+            { "name": "Bars, Clubs & Nightlife" },
+            { "name": "Concerts & Music Festivals" },
+            { "name": "Event Ticket Sales" },
+            { "name": "Expos & Conventions" },
+            { "name": "Film Festivals" },
+            { "name": "Food & Beverage Events" },
+            { "name": "Live Sporting Events" }
+          ]
+        },
+        {
+          "name": "Movies",
+          "children": [
+            { "name": "Action & Adventure Films" },
+            { "name": "Comedy Films" },
+            { "name": "Drama Films" },
+            { "name": "Family Films" },
+            { "name": "Horror Films" },
+            { "name": "Romance Films" },
+            { "name": "Science Fiction & Fantasy Films" }
+          ]
+        },
+        {
+          "name": "Music & Audio",
+          "children": [
+            { "name": "Blues" },
+            { "name": "Classical Music" },
+            { "name": "Country Music" },
+            { "name": "Dance & Electronic Music" },
+            { "name": "DJ Resources & Equipment" },
+            { "name": "Folk & Traditional Music" },
+            { "name": "Jazz" },
+            { "name": "Musical Instruments" },
+            { "name": "Pop Music" },
+            { "name": "Rap & Hip-Hop" },
+            {
+              "name": "Rock Music",
+              "children": [
+                { "name": "Indie & Alternative Music" },
+                { "name": "Metal (Music)" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Performing Arts",
+          "children": [{ "name": "Broadway & Musical Theater" }]
+        },
+        {
+          "name": "TV & Video",
+          "children": [
+            { "name": "Live Video Streaming" },
+            { "name": "Movie & TV Streaming" },
+            { "name": "TV Comedies" },
+            { "name": "TV Documentary & Nonfiction" },
+            { "name": "TV Dramas" },
+            { "name": "TV Family-Oriented Shows" },
+            { "name": "TV Game Shows" },
+            { "name": "TV Reality Shows" },
+            { "name": "TV Sci-Fi & Fantasy Shows" },
+            { "name": "TV Talk Shows" }
+          ]
+        },
+        {
+          "name": "Visual Art & Design",
+          "children": [
+            { "name": "Architecture" },
+            { "name": "Photographic & Digital Arts" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autos & Vehicles",
+      "children": [
+        { "name": "Bicycles & Accessories" },
+        { "name": "Boats & Watercraft" },
+        { "name": "Campers & RVs" },
+        { "name": "Classic Vehicles" },
+        { "name": "Commercial Vehicles" },
+        { "name": "Custom & Performance Vehicles" },
+        {
+          "name": "Motor Vehicles (By Type)",
+          "children": [
+            { "name": "Autonomous Vehicles" },
+            { "name": "Compact Cars" },
+            { "name": "Convertibles" },
+            { "name": "Coupes" },
+            { "name": "Diesel Vehicles" },
+            { "name": "Hatchbacks" },
+            {
+              "name": "Hybrid & Alternative Vehicles",
+              "children": [{ "name": "Electric & Plug-In Vehicles" }]
+            },
+            { "name": "Luxury Vehicles" },
+            { "name": "Microcars & Subcompacts" },
+            { "name": "Motorcycles" },
+            { "name": "Off-Road Vehicles" },
+            { "name": "Scooters & Mopeds" },
+            { "name": "Sedans" },
+            { "name": "Sports Cars" },
+            { "name": "Station Wagons" },
+            {
+              "name": "Trucks, Vans & SUVs",
+              "children": [
+                { "name": "Pickup Trucks" },
+                { "name": "SUVs & Crossovers" },
+                { "name": "Vans & Minivans" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vehicle Parts & Accessories",
+          "children": [
+            { "name": "High Performance & Aftermarket Auto Parts" },
+            { "name": "Vehicle Wheels & Tires" }
+          ]
+        },
+        { "name": "Vehicle Repair & Maintenance" },
+        {
+          "name": "Vehicle Shopping",
+          "children": [{ "name": "Used Vehicles" }]
+        }
+      ]
+    },
+    {
+      "name": "Beauty & Fitness",
+      "children": [
+        {
+          "name": "Beauty Services & Spas",
+          "children": [{ "name": "Manicures & Pedicures" }]
+        },
+        { "name": "Cosmetology & Beauty Professionals" },
+        {
+          "name": "Face & Body Care",
+          "children": [
+            { "name": "Clean Beauty" },
+            {
+              "name": "Hygiene & Toiletries",
+              "children": [
+                { "name": "Antiperspirants, Deodorants & Body Sprays" },
+                { "name": "Feminine Hygiene Products" }
+              ]
+            },
+            { "name": "Make-Up & Cosmetics" },
+            { "name": "Perfumes & Fragrances" },
+            {
+              "name": "Skin & Nail Care",
+              "children": [
+                { "name": "Bath & Body Products" },
+                { "name": "Face Care Products" },
+                { "name": "Nail Care Products" }
+              ]
+            },
+            { "name": "Sun Care & Tanning Products" },
+            {
+              "name": "Unwanted Body & Facial Hair Removal",
+              "children": [{ "name": "Razors & Shavers" }]
+            }
+          ]
+        },
+        { "name": "Fashion & Style" },
+        {
+          "name": "Fitness",
+          "children": [
+            {
+              "name": "Fitness Equipment & Accessories",
+              "children": [{ "name": "Fitness Technology Products" }]
+            },
+            { "name": "Fitness Instruction & Personal Training" },
+            { "name": "Gyms & Health Clubs" },
+            { "name": "High Intensity Interval Training" },
+            { "name": "Yoga & Pilates" }
+          ]
+        },
+        {
+          "name": "Hair Care",
+          "children": [{ "name": "Shampoos & Conditioners" }]
+        }
+      ]
+    },
+    {
+      "name": "Books & Literature",
+      "children": [
+        { "name": "Audiobooks" },
+        { "name": "Book Retailers" },
+        { "name": "Children's Literature" },
+        { "name": "Fan Fiction" },
+        { "name": "Literary Classics" },
+        { "name": "Magazines" },
+        { "name": "Poetry" },
+        { "name": "Writers Resources" }
+      ]
+    },
+    {
+      "name": "Business & Industrial",
+      "children": [
+        { "name": "Advertising & Marketing" },
+        { "name": "Building Materials & Supplies" },
+        {
+          "name": "Business Finance",
+          "children": [{ "name": "Commercial Lending" }]
+        },
+        {
+          "name": "Business Services",
+          "children": [
+            { "name": "Corporate Events" },
+            { "name": "Fire & Security Services" },
+            { "name": "Merchant Services & Payment Systems" },
+            {
+              "name": "Office Supplies",
+              "children": [{ "name": "Office Furniture" }]
+            },
+            { "name": "Signage" }
+          ]
+        },
+        { "name": "Construction Consulting & Contracting" },
+        { "name": "Document & Printing Services" },
+        { "name": "Event Planning" },
+        { "name": "Food Service" },
+        {
+          "name": "Industrial Materials & Equipment",
+          "children": [{ "name": "Work Safety Protective Gear" }]
+        },
+        { "name": "Moving & Relocation" },
+        { "name": "Payroll Services" },
+        { "name": "Recruitment & Staffing" }
+      ]
+    },
+    {
+      "name": "Computers & Electronics",
+      "children": [
+        {
+          "name": "Computer Hardware",
+          "children": [
+            { "name": "Computer Components" },
+            { "name": "Computer Drives & Storage" },
+            { "name": "Computer Peripherals" },
+            { "name": "Desktop Computers" },
+            { "name": "Laptops & Notebooks" }
+          ]
+        },
+        { "name": "Computer Security" },
+        {
+          "name": "Consumer Electronics",
+          "children": [
+            {
+              "name": "Audio Equipment",
+              "children": [
+                { "name": "Headphones" },
+                { "name": "Speakers" },
+                { "name": "Stereo Systems & Components" }
+              ]
+            },
+            { "name": "Camera & Photo Equipment" },
+            { "name": "Car Audio" },
+            { "name": "Gadgets & Portable Electronics" },
+            {
+              "name": "Game Systems & Consoles",
+              "children": [{ "name": "Handheld Game Consoles" }]
+            },
+            { "name": "Home Automation" },
+            { "name": "Home Theater Systems" },
+            { "name": "Televisions" }
+          ]
+        },
+        {
+          "name": "Electronics & Electrical",
+          "children": [{ "name": "Power Supplies" }]
+        },
+        { "name": "Enterprise Technology" },
+        {
+          "name": "Networking",
+          "children": [
+            { "name": "Network Monitoring & Management" },
+            { "name": "Networking Equipment" }
+          ]
+        },
+        {
+          "name": "Software",
+          "children": [
+            {
+              "name": "Business & Productivity Software",
+              "children": [
+                { "name": "Accounting & Financial Software" },
+                { "name": "Collaboration & Conferencing Software" }
+              ]
+            },
+            {
+              "name": "Multimedia Software",
+              "children": [
+                { "name": "Audio & Music Software" },
+                { "name": "Graphics & Animation Software" },
+                { "name": "Photo & Video Software" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "children": [
+        {
+          "name": "Accounting & Auditing",
+          "children": [{ "name": "Tax Preparation & Planning" }]
+        },
+        {
+          "name": "Banking",
+          "children": [
+            { "name": "Debit & Checking Services" },
+            { "name": "Savings Accounts" }
+          ]
+        },
+        {
+          "name": "Credit & Lending",
+          "children": [
+            { "name": "Auto Financing" },
+            { "name": "Credit Cards" },
+            { "name": "Credit Reporting & Monitoring" },
+            { "name": "Home Financing" },
+            { "name": "Personal Loans" },
+            { "name": "Student Loans & College Financing" }
+          ]
+        },
+        {
+          "name": "Financial Planning & Management",
+          "children": [{ "name": "Retirement & Pension" }]
+        },
+        {
+          "name": "Insurance",
+          "children": [
+            { "name": "Auto Insurance" },
+            { "name": "Health Insurance" },
+            { "name": "Home Insurance" },
+            { "name": "Life Insurance" },
+            { "name": "Travel Insurance" }
+          ]
+        },
+        { "name": "Investing" }
+      ]
+    },
+    {
+      "name": "Food & Drink",
+      "children": [
+        {
+          "name": "Cooking & Recipes",
+          "children": [
+            {
+              "name": "Vegetarian Cuisine",
+              "children": [{ "name": "Vegan Cuisine" }]
+            }
+          ]
+        },
+        {
+          "name": "Food",
+          "children": [
+            { "name": "Baked Goods" },
+            { "name": "Breakfast Foods" },
+            { "name": "Candy & Sweets" },
+            { "name": "Condiments & Dressings" },
+            { "name": "Dairy & Eggs" },
+            { "name": "Gourmet & Specialty Foods" },
+            {
+              "name": "Meat & Seafood",
+              "children": [{ "name": "Fish & Seafood" }]
+            },
+            { "name": "Organic & Natural Foods" }
+          ]
+        },
+        { "name": "Grocery Delivery Services" },
+        { "name": "Restaurant Delivery Services" },
+        {
+          "name": "Restaurants",
+          "children": [{ "name": "Fast Food" }, { "name": "Pizzerias" }]
+        }
+      ]
+    },
+    {
+      "name": "Games",
+      "children": [
+        { "name": "Board Games" },
+        {
+          "name": "Computer & Video Games",
+          "children": [
+            { "name": "Action & Platform Games" },
+            { "name": "Adventure Games" },
+            { "name": "Casual Games" },
+            { "name": "Competitive Video Gaming" },
+            { "name": "Driving & Racing Games" },
+            { "name": "Shooter Games" },
+            { "name": "Sports Games" },
+            { "name": "Strategy Games" }
+          ]
+        },
+        { "name": "Family-Oriented Games & Activities" },
+        { "name": "Roleplaying Games" }
+      ]
+    },
+    {
+      "name": "Hobbies & Leisure",
+      "children": [
+        { "name": "Art & Craft Supplies" },
+        { "name": "Boating" },
+        { "name": "Holidays & Seasonal Events" },
+        {
+          "name": "Outdoors",
+          "children": [{ "name": "Fishing" }, { "name": "Hiking & Camping" }]
+        }
+      ]
+    },
+    {
+      "name": "Home & Garden",
+      "children": [
+        {
+          "name": "Bed & Bath",
+          "children": [
+            { "name": "Bathroom" },
+            {
+              "name": "Bedroom",
+              "children": [
+                { "name": "Bedding & Bed Linens" },
+                { "name": "Beds & Headboards" },
+                { "name": "Mattresses" }
+              ]
+            }
+          ]
+        },
+        { "name": "Cleaning Services" },
+        { "name": "Home & Interior Decor" },
+        {
+          "name": "Home Appliances",
+          "children": [
+            { "name": "Vacuums & Floor Care" },
+            { "name": "Water Filters & Purifiers" }
+          ]
+        },
+        {
+          "name": "Home Furnishings",
+          "children": [
+            { "name": "Countertops" },
+            { "name": "Curtains & Window Treatments" },
+            { "name": "Kitchen & Dining Furniture" },
+            { "name": "Lamps & Lighting" },
+            {
+              "name": "Living Room Furniture",
+              "children": [{ "name": "Sofas & Armchairs" }]
+            },
+            { "name": "Outdoor Furniture" },
+            { "name": "Rugs & Carpets" }
+          ]
+        },
+        {
+          "name": "Home Improvement",
+          "children": [
+            { "name": "Construction & Power Tools" },
+            { "name": "Doors & Windows" },
+            { "name": "Flooring" },
+            { "name": "House Painting & Finishing" },
+            { "name": "Locks & Locksmiths" },
+            { "name": "Plumbing" },
+            { "name": "Roofing" }
+          ]
+        },
+        { "name": "Home Safety & Security" },
+        {
+          "name": "Home Storage & Shelving",
+          "children": [{ "name": "Cabinetry" }]
+        },
+        { "name": "Home Swimming Pools, Saunas & Spas" },
+        { "name": "Household Supplies" },
+        {
+          "name": "Household Supplies",
+          "children": [
+            { "name": "Household Batteries" },
+            { "name": "Household Cleaning Supplies" }
+          ]
+        },
+        {
+          "name": "HVAC & Climate Control",
+          "children": [
+            { "name": "Air Conditioners" },
+            { "name": "Fireplaces & Stoves" },
+            { "name": "Household Fans" }
+          ]
+        },
+        {
+          "name": "Kitchen & Dining",
+          "children": [
+            {
+              "name": "Cookware & Diningware",
+              "children": [{ "name": "Cookware" }, { "name": "Diningware" }]
+            },
+            { "name": "Dishwashers" },
+            { "name": "Microwaves" },
+            { "name": "Ranges, Cooktops & Ovens" },
+            { "name": "Refrigerators & Freezers" },
+            {
+              "name": "Small Kitchen Appliances",
+              "children": [
+                { "name": "Blenders & Juicers" },
+                { "name": "Coffee & Espresso Makers" },
+                { "name": "Food Mixers" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Patio, Lawn & Garden",
+          "children": [
+            { "name": "Barbecues & Grills" },
+            { "name": "Gardening" },
+            { "name": "Landscape Design" },
+            {
+              "name": "Yard Maintenance",
+              "children": [{ "name": "Lawn Mowers" }]
+            }
+          ]
+        },
+        { "name": "Pest Control" },
+        { "name": "Washers & Dryers" }
+      ]
+    },
+    {
+      "name": "Internet & Telecom",
+      "children": [
+        {
+          "name": "Communications Equipment",
+          "children": [{ "name": "Radio Equipment" }]
+        },
+        { "name": "Mobile & Wireless Accessories" },
+        {
+          "name": "Mobile Phones",
+          "children": [{ "name": "Mobile Phone Repair & Services" }]
+        },
+        {
+          "name": "Service Providers",
+          "children": [
+            { "name": "Cable & Satellite Providers" },
+            { "name": "ISPs" },
+            { "name": "Phone Service Providers" }
+          ]
+        },
+        { "name": "Voice & Video Chat" },
+        {
+          "name": "Web Services",
+          "children": [
+            { "name": "Cloud Storage" },
+            { "name": "Search Engine Optimization & Marketing" },
+            { "name": "Web Design & Development" },
+            { "name": "Web Hosting & Domain Registration" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jobs & Education",
+      "children": [
+        {
+          "name": "Education",
+          "children": [
+            { "name": "Business Education" },
+            { "name": "Colleges & Universities" },
+            { "name": "Computer Education" },
+            { "name": "Distance Learning" },
+            { "name": "Early Childhood Education" },
+            { "name": "Foreign Language Study" },
+            { "name": "Health Education & Medical Training" },
+            { "name": "Homeschooling" },
+            { "name": "Legal Education" },
+            { "name": "Open Online Courses" },
+            { "name": "Primary & Secondary Schooling (K-12)" },
+            { "name": "Private Tutoring Services" },
+            { "name": "School Supplies & Classroom Equipment" },
+            { "name": "Standardized & Admissions Tests" },
+            { "name": "Study Abroad" },
+            { "name": "Visual Arts & Design Education" }
+          ]
+        },
+        { "name": "Internships" },
+        {
+          "name": "Jobs",
+          "children": [
+            { "name": "Career Resources & Planning" },
+            {
+              "name": "Job Listings",
+              "children": [
+                { "name": "Accounting & Finance Jobs" },
+                { "name": "Clerical & Administrative Jobs" },
+                { "name": "Education Jobs" },
+                { "name": "Executive & Management Jobs" },
+                { "name": "Government & Public Sector Jobs" },
+                { "name": "Health & Medical Jobs" },
+                { "name": "IT & Technical Jobs" },
+                { "name": "Legal Jobs" },
+                { "name": "Retail Jobs" },
+                { "name": "Sales & Marketing Jobs" },
+                { "name": "Temporary & Seasonal Jobs" }
+              ]
+            },
+            { "name": "Resumes & Portfolios" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Law & Government",
+      "children": [
+        { "name": "Labor & Employment Law" },
+        { "name": "Legal Services" }
+      ]
+    },
+    {
+      "name": "News",
+      "children": [
+        { "name": "Business News" },
+        { "name": "Local News" },
+        { "name": "Politics" },
+        { "name": "World News" }
+      ]
+    },
+    {
+      "name": "Online Communities",
+      "children": [{ "name": "Social Networks" }]
+    },
+    {
+      "name": "People & Society",
+      "children": [
+        { "name": "Charity & Philanthropy" },
+        {
+          "name": "Parenting",
+          "children": [
+            { "name": "Adoption" },
+            { "name": "Babies & Toddlers" },
+            { "name": "Child Care" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pets & Animals",
+      "children": [
+        { "name": "Pet Food & Pet Care Supplies" },
+        {
+          "name": "Pets",
+          "children": [{ "name": "Cats" }, { "name": "Dogs" }]
+        }
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "children": [
+        { "name": "Property Development" },
+        {
+          "name": "Real Estate Listings",
+          "children": [
+            { "name": "Commercial Properties" },
+            {
+              "name": "Residential Rentals",
+              "children": [{ "name": "Furnished Rentals" }]
+            },
+            { "name": "Residential Sales" }
+          ]
+        },
+        {
+          "name": "Real Estate Services",
+          "children": [{ "name": "Property Inspections & Appraisals" }]
+        }
+      ]
+    },
+    {
+      "name": "Shopping",
+      "children": [
+        {
+          "name": "Apparel",
+          "children": [
+            { "name": "Apparel Services" },
+            { "name": "Athletic Apparel" },
+            {
+              "name": "Casual Apparel",
+              "children": [{ "name": "T-Shirts" }]
+            },
+            { "name": "Children's Clothing" },
+            {
+              "name": "Clothing Accessories",
+              "children": [
+                {
+                  "name": "Gems & Jewelry",
+                  "children": [{ "name": "Rings" }]
+                },
+                { "name": "Handbags & Purses" },
+                { "name": "Socks & Hosiery" },
+                { "name": "Watches" }
+              ]
+            },
+            { "name": "Costumes" },
+            {
+              "name": "Eyewear",
+              "children": [{ "name": "Sunglasses" }]
+            },
+            {
+              "name": "Footwear",
+              "children": [
+                { "name": "Athletic Shoes" },
+                { "name": "Boots" },
+                { "name": "Casual Shoes" }
+              ]
+            },
+            { "name": "Formal Wear" },
+            { "name": "Headwear" },
+            { "name": "Men's Clothing" },
+            { "name": "Outerwear" },
+            { "name": "Pants & Shorts" },
+            { "name": "Shirts & Tops" },
+            { "name": "Sleepwear" },
+            { "name": "Suits & Business Attire" },
+            { "name": "Swimwear" },
+            { "name": "Undergarments" },
+            { "name": "Uniforms & Workwear" },
+            {
+              "name": "Women's Clothing",
+              "children": [{ "name": "Dresses" }, { "name": "Skirts" }]
+            }
+          ]
+        },
+        { "name": "Coupons & Discount Offers" },
+        {
+          "name": "Gifts & Special Event Items",
+          "children": [
+            { "name": "Flowers" },
+            { "name": "Party & Holiday Supplies" }
+          ]
+        },
+        { "name": "Luxury Goods" },
+        { "name": "Mass Merchants & Department Stores" },
+        {
+          "name": "Photo & Video Services",
+          "children": [
+            { "name": "Event & Studio Photography" },
+            { "name": "Photo Printing Services" }
+          ]
+        },
+        { "name": "Product Reviews & Price Comparisons" },
+        { "name": "Toys" }
+      ]
+    },
+    {
+      "name": "Sports",
+      "children": [
+        { "name": "American Football" },
+        { "name": "Australian Football" },
+        { "name": "Baseball" },
+        { "name": "Basketball" },
+        { "name": "Combat Sports" },
+        { "name": "Cricket" },
+        { "name": "Cycling" },
+        { "name": "Golf" },
+        { "name": "Hockey" },
+        { "name": "Motor Sports" },
+        { "name": "Olympics" },
+        { "name": "Rugby" },
+        { "name": "Running & Walking" },
+        { "name": "Soccer" },
+        {
+          "name": "Sporting Goods",
+          "children": [
+            { "name": "Baseball & Softball Equipment" },
+            { "name": "Golf Equipment" },
+            { "name": "Hockey Equipment" },
+            { "name": "Skateboarding Equipment" },
+            { "name": "Soccer Equipment" },
+            { "name": "Squash & Racquetball Equipment" },
+            { "name": "Water Sports Equipment" },
+            { "name": "Winter Sports Equipment" }
+          ]
+        },
+        {
+          "name": "Water Sports",
+          "children": [{ "name": "Swimming" }]
+        },
+        {
+          "name": "Winter Sports",
+          "children": [{ "name": "Skiing & Snowboarding" }]
+        },
+        { "name": "Tennis" }
+      ]
+    },
+    {
+      "name": "Travel & Transportation",
+      "children": [
+        { "name": "Air Travel" },
+        { "name": "Beaches & Islands" },
+        { "name": "Business Travel" },
+        { "name": "Car Rentals" },
+        { "name": "Cruises & Charters" },
+        { "name": "Family Travel" },
+        {
+          "name": "Hotels & Accommodations",
+          "children": [{ "name": "Vacation Rentals & Short-Term Stays" }]
+        },
+        { "name": "Long Distance Bus & Rail" },
+        {
+          "name": "Luggage & Travel Accessories",
+          "children": [{ "name": "Backpacks & Utility Bags" }]
+        },
+        { "name": "Luxury Travel" },
+        { "name": "Mountain & Ski Resorts" },
+        {
+          "name": "Travel Agencies & Services",
+          "children": [
+            { "name": "Guided Tours & Escorted Vacations" },
+            { "name": "Sightseeing Tours" },
+            { "name": "Vacation Offers" }
+          ]
+        }
+      ]
+    }
+  ]
+}
